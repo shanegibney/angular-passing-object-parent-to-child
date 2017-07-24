@@ -14,6 +14,6 @@ export class ChildComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(){
-
+    console.log("changed");
   }
 }
